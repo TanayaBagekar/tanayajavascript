@@ -1,0 +1,22 @@
+/*descendNT selector*/
+div h1{
+    color: red;
+}
+/*child selector*/
+div > h2{
+    background-color: rosybrown;
+}
+/*scebling selector*/
+div +p{
+    color: seagreen;
+}
+/* general sebling selector*/
+div ~p{
+    font-size: 10px;
+}
+div.pad{
+    border: 1px dotted black;
+    padding: 50px;
+    height:50px;
+    width:50px ;
+}

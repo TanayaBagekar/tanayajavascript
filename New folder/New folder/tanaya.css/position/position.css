@@ -1,0 +1,36 @@
+.main{
+    position: relative;
+    margin: auto;
+    top: 20px;
+    z-index: -1;
+    width: 500px;
+    border:2px solid ;
+    height: 1050px;
+}
+    .maintwo{
+        border: 2px solid;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        padding: auto;
+        background-color: blueviolet;
+    }
+    .main3{
+        border: 2px solid   ;
+        background-color: brown;
+        color:white ;
+        position: fixed;
+        margin: auto;
+        height: 50px;
+        width: 60px;
+        bottom: 0;
+        right: 0;
+    }
+    .main4{
+        border: 2px solid;
+        background-color: pink;
+        position: sticky;
+        padding: 50px;
+        top: 0px;
+        z-index: -1;   
+    }

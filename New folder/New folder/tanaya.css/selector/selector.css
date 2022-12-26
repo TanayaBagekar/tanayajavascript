@@ -1,0 +1,64 @@
+p{
+    font-size: 30px;
+    color: red;
+}
+#headertag{
+    color: blue;
+    font: larger;
+}
+.main{
+    color: aqua;
+}
+.main1{
+    color: greenyellow;
+}
+p.main1:hover{
+    color: hotpink;
+}
+.main2{
+    display: inline-block;
+
+    background-color: hotpink;
+}
+.main3{
+    display: block;
+    background-color: indigo;
+}
+.main4{
+    display: none;
+}
+div.main5:hover p{
+    display: block;
+}
+.main6{
+    display: none;
+}
+/*universal selector*/
+*{
+    color:rosybrown;
+}
+.hd1{
+    background-color: green;
+}
+h1.hd1:active{
+    background-color: hotpink;
+}
+input:checked{
+    height: 70px;
+    width: 70px;
+}
+input[type=text]:focus{
+    background-color: yellow;
+    color: black;
+}
+.fcs{
+    background-color: white;
+    color: green;
+}
+div.fcs input[type=text]:focus{
+    background-color: violet;
+    color: black;
+}
+div.fcs input[type=text]:disabled{
+    background-color: burlywood;
+}

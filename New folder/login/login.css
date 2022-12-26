@@ -1,0 +1,72 @@
+.main{
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    position: relative;
+    margin-left: 240px;
+    margin-top: 70px;
+
+
+}
+input[type=text] , input[type=password]{
+    width: 200px;
+    padding: 15px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+.title{
+    margin-left: 300px;
+}
+.btn{
+    background-color: green;
+    color: black;
+    cursor: pointer;
+    margin: 18px;
+    padding: 20px;
+    border: none;
+    width: 400px;
+
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.footer{
+    background-color: cadetblue;
+    height: 94px;
+}
+.canclebtn{
+    background-color: red;
+    position: absolute;
+    top: 420px;
+    border: none;
+    height: 35px;
+    width: 80px;
+    left: 12px;
+}
+.forgotbtn{
+    float: right;
+    margin-top: 45px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 1px solid black;
+}
+.sidebar
+{
+    background-color: pink;
+    height: 100%;
+    width: 180px;
+    position: absolute;
+}
+.newspaper{
+    column-count: 3;
+    column-gap: 10px;
+    column-rule-style: dotted;
+}
+.main1{
+    margin-left: 15px;
+    position: absolute;
+    top: 10px;
+}

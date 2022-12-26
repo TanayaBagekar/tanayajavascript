@@ -1,0 +1,30 @@
+.main{
+    font-size: 30px;
+    background-color: pink;
+    color:red ;
+
+}
+.maintwo
+{
+    word-wrap: break-word;
+    overflow: scroll;
+    height: 250px;
+    width: 320px;
+    font-size: 10px;
+    margin-left: 700px;
+
+
+}
+div.mainthree
+{
+ position: absolute;
+ height: 226px;
+ width: 309px;
+ border:solid black;
+ color:yellow ;
+ top: 20px;
+ z-index: 1;
+margin-left: 590px; 
+ 
+
+}

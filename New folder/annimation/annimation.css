@@ -1,0 +1,25 @@
+.trans{
+    height: 200px;
+    width: 200px;
+    transition: width 1s height 1s ,transform 1s;
+    background-color: chartreuse;
+}
+ .trans:hover{
+     height: 500px;
+     width: 500px;
+     background-color: red;
+     transform: rotate(180deg);
+ }
+ .key{
+     background-color: red;
+     height:200px;
+     width: 200px;
+     animation-name: tanaya;
+     animation-duration: 6s;
+     animation-iteration-count: 5;
+     animation-delay: 2s;
+ }
+ @keyframes tanaya {
+ from{background-color: red;}
+     to{background-color: rosybrown;}
+ }

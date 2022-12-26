@@ -1,0 +1,22 @@
+.main{
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    background-color: cornsilk;
+    text-align: center;
+    position: relative;
+    left: 170px;
+}
+.button{
+    background-color: chocolate;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    top: 170px;
+    right: 30px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.6;/*0-1*/
+}

@@ -1,0 +1,13 @@
+.main{
+    text-align: center;
+    color: red;
+}
+.mintwo{
+    font-size: larger;
+}
+.newspaper
+{
+    column-count: 4;
+    column-gap: 10px;
+    column-rule-style: dotted;
+}

@@ -1,0 +1,79 @@
+.test {
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: red;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    border: solid;
+    /* word-wrap: break-word; */
+    min-height: 400px;
+    /* word-break: break-all; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.testone{
+    width: 70px;
+    text-overflow: ellipsis;
+    border: 1px solid blueviolet;
+    overflow: hidden;
+    color: aqua;
+
+}
+
+div.testone:hover {
+    overflow: visible;
+    color: yellow;
+}
+
+div.test:hover {
+    overflow: visible
+}
+/* overflow: visible-default/hidden/scroll/auto  */
+.testtwo{
+    color: brown;
+    height: 300px;
+    width: 300px;
+    border:  1px solid black;
+    margin-left: 30px;
+    /* overflow-y : scroll;
+    overflow-x : hidden 
+    overflow :scroll*/
+    overflow: auto;
+   padding-left: 2px;
+
+}
+.testthree{
+    background-image: url("D:/Oct Batch/roje2.jpg");
+    height: 1300px;
+    width: 1300px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: absolute;
+}
+.testfour{
+    color: brown;
+    height: 100px;
+    width: 100px;
+    border:  1px solid black;
+    text-overflow:clip;
+    overflow: scroll;
+}
+.text{
+    text-shadow: 2px 0px 5px yellow;
+    font-size: 40px;
+    text-transform: lowercase;
+}
+.imageindex{
+    position: relative;
+    /* left: 0px;
+    top: 0px; */
+    z-index: -1;
+    opacity: 0.7;
+}
+.new{
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+}

@@ -1,0 +1,28 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    background-color: burlywood;
+    color: black;
+    font-size: 30px;
+    padding: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content a{
+    color: red;
+    padding: 12px 18px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown :visited .dropbtn{
+    background-color: seagreen;
+}
+.dropdown :hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a :hover{
+    background-color: silver;
+}
